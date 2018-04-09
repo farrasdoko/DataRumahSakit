@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DataRumahSakit</string>
+    <string name="inputnama">Masukkan Nama</string>
+    <string name="inputalamat">Masukkan Alamat</string>
+    <string name="btntambah">Selesai</string>
+    <string name="btnupdate">UPDATE</string>
+    <string name="btndelete">DELETE</string>
+</resources>

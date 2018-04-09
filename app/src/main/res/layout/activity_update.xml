@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.gmail.farasabiyyu12.datarumahsakit.UpdateActivity">
+
+    <EditText
+        android:id="@+id/inpnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputnama"/>
+    <EditText
+        android:id="@+id/inpalamat"
+        android:hint="@string/inputalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inpnama"/>
+    <Button
+        android:id="@+id/btnInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/btntambah"
+        android:textColor="#fff"
+        android:layout_below="@id/inpalamat"/>
+
+</RelativeLayout>
